@@ -68,9 +68,11 @@ Task {
      print("Error: \(error)")
  }
 
+}
+```
 This snippet:
 - **Loads a model**: Given a Hugging Face model name, it downloads and configures the model.
 - **Provides a prompt and an image as input**: The input prompt and image are processed for the model.
 - **Runs inference and prints the output text**: Generates a textual response based on the input.
 - **No additional classes or tasks beyond the standard MLX interfaces are required**.
-}
+
